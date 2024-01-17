@@ -1,0 +1,28 @@
+body {
+    font-family: 'Tangerine', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+    transition: 0.5s;
+}
+
+button {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 2em;
+    transition: all 0.25s;
+    border-radius: 2em;
+
+}
+
+button:hover {
+    border-color: aqua;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f2ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
